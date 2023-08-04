@@ -22,8 +22,8 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
+bio: Prof. @ BGU Electrical & Computer Engineering dept., head of BMIC lab.  
+  
 interests:
   - Artificial Intelligence
   - Computational Linguistics
@@ -39,7 +39,7 @@ education:
       year: 
     - course: M.Sc. Computer Science
       institution: The Hebrew University of Jerusalem
-      year: 2008
+      year: 
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -49,7 +49,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:rrtammy@bgu.ac.il'
-
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.il/citations?user=xt7uyAEAAAAJ&hl=en
