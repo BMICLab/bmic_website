@@ -1,16 +1,20 @@
 ---
 # Display name
-title: Doron Serebro
+title: Shai Aharon
 
-# Full Name (for SEO)
-first_name: Doron
-last_name: Serebro
+# Full name (for SEO)
+first_name: Shai
+last_name: Aharon
+
+# Username (this should match the folder name)
+authors:
+  - shaiaha
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: M.Sc. Student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
@@ -18,22 +22,20 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: MLOps engineer by day, M.Sc. student by night. My professional/academic interests are medial imaging and autonomous driving.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Domain Adaptation
+  - Image Denoising
   - Hypernetworks
-  - MRI Segmentation
-  - Autonomous Driving
 
 education:
   courses:
-    - course: M.Sc. in Electrical Engineering
-      institution: Ben-Gurion University
-      year: 2022-2024
-    - course: B.Sc. in Electrical Engineering
-      institution: Ben-Gurion University
-      year: 2016-2020
+    - course: M.Sc. Computer Science
+      institution: Ariel University
+      year: 2016
+    - course: B.Sc. Computer Science
+      institution: The Hebrew University of Jerusalem
+      year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -42,10 +44,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:doronser@post.bgu.ac.il'
+    link: 'mailto:your_email@post.bgu.ac.il'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/doronser
+    link: https://twitter.com/your_twitter
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=vO1_M-QAAAAJ&hl=en
@@ -61,16 +63,12 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
 
-# Highlight the author in author lists? (true/false)
-highlight_name: false
-
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - M.Sc. Students
 ---
 
-Doron Serebro is an M.Sc. research student at BMIC lab. His research interests include domain-adaptation, hypernetworks and MRI segmentation.
-Beyond his reseaerch work, Doron helps maintain the lab's servers, website and knowledge sharing.
+Graduated with a B.Sc in Computer Science from The Hebrew University of Jerusalem. Proceeded to work for a couple of years before returning to the academia for my M.Sc at Ariel University. My thesis dealt with Tunable Networks for Image Restoration.
 
-When not working in the lab, Doron is an MLOps Engineer at a small autonomous driving start-up.
+Currently I'm a P.hD at Ben-Gurion University under the supervision of Dr. Andri Sherf and Prof. Tammy Riklin-Raviv.
