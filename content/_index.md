@@ -4,6 +4,13 @@ title:
 date: 2023-08-04
 type: landing
 
+design:
+  background:
+    # Choose a color such as from https://html-color-codes.info
+    color: 'navy'
+    # Text color (true=light, false=dark, or remove for the dynamic theme color).
+    text_color_light: true
+
 sections:
   - block: hero
     content:
