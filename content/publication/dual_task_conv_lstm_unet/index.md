@@ -3,7 +3,7 @@ title: 'Dual-Task ConvLSTM-UNet for Instance Segmentation of Weakly Annotated Mi
 authors:
   - shaked0
   - tammy
-author_notes:
+#author_notes:
 date: '2018-08-01T00:00:00Z'
 doi: ''
 
