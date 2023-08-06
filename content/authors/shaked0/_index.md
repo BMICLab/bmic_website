@@ -29,12 +29,13 @@ education:
   courses:
     - course: M.Sc. Electrical and Computer Engineering
       institution: Ben-Gurion University
-      year: ""
+      year: 2021
     - course: B.Sc. Electrical and Computer Engineering
       institution: Ben-Gurion University
-      year: ""
+      year: 2016
     - institution: Ben-Gurion University
       course: B.Sc. Mathematics
+      year: 2016
 email: ""
 user_groups:
   - M.Sc. Students
