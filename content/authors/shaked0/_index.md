@@ -25,6 +25,11 @@ social:
     link: https://www.linkedin.com/in/c-shaked11/
     icon_pack: fab
     icon: linkedin
+  - display:
+      header: false
+    link: https://scholar.google.com/citations?user=3HXBuVoAAAAJ&hl=en&oi=ao
+    icon_pack: ai
+    icon: google-scholar
 education:
   courses:
     - course: M.Sc. Electrical and Computer Engineering
