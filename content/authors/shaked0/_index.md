@@ -4,7 +4,7 @@ organizations:
     url: ""
 superuser: false
 authors:
-  - default
+  - shaked0
 title: Shaked Cohen
 role: M.Sc. Student
 bio: My research interests include Computer Vision, Image Processing and Deep
