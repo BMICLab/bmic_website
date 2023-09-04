@@ -1,48 +1,35 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# [BMIC Lab Website](https://bmic-lab.netlify.app/)
+This repository holds the code to the BMIC lab website. It is based on the Wowchemy [Reasearch Group template](https://github.com/wowchemy/starter-hugo-research-group) and is hosted on [Netlify](https://www.netlify.com/).
 
-[![Screenshot](./preview.png)](https://wowchemy.com/hugo-themes/)
+## Usage
+There are several ways to update lab's website:
+1. **Directly on GitHub**. You can edit the content of the website directly on GitHub. check out the dev branch and make any change you wish. All changes can be seen [here](https://dev--bmic-lab.netlify.app/). Once satisfied with your changes, open a PR to merge the changes into the main branch. Once merged, the changes will be automatically deployed to the main website.
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+2. **Using Netlify CMS**  Netlify offers a content management system (like a poor man's Wordpress), which can be accessed from the [dev branch website](https://dev--bmic-lab.netlify.app/). Make any changes you wish, then create a PR to merge the changes into the main branch. Once merged, the changes will be automatically deployed to the main website. 
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://wowchemy.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/wowchemy?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+## Site Structure
+The site is built using [Hugo](https://gohugo.io/), a static site generator. The site's content is written in [Markdown](https://www.markdownguide.org/). The site's structure is defined in the `config/_default/menus.toml` file. The content of each page is defined in the `content/` folder. The site's theme is defined in the `themes/` folder.
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://wowchemy.com/creators/).
+### Adding your profile
+Create a new directory under `content/authors/` with your username. Add a `index.md` file with the required format (use any existing profile as a template). Add a profile picture to the `content/authors/<your_username>/` directory. The picture should be named `avatar.jpg` and should be square (ideally 512x512 pixels).
 
-The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+### Adding a publication
+There are 2 ways to add a publication:
+1. **Import Bibtex file** Using [Hugo academic CLI](https://github.com/wowchemy/hugo-academic-cli) you can automatically turn a .bibtext file into a publication entry in the website. This can serve as a good starting point for additional manual editing or as a simple entry to just publish to the website.
+2. **Manual Entry** Create a new directory under `content/publication` with the name of the publication. Add a `index.md` file with the required format (use any existing publication as a template). Add a publication picture to the `content/publication/<publication_name>/` directory. The picture should be named `featured.jpg` and should be square (ideally 512x512 pixels).
 
-- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+### Adding other types of content
+The logic is similar to the above methods. Type of content is defined by the directory name under `content/`. Each type of content has a different `index.md` file format. Use any existing content as a template.
 
-## We ask you, humbly, to support this open source movement
+# Run Locally
+In case you want to run host the website locally to see changes before pushing them to GitHub, follow these steps:
+1. Clone this repo.
+2. run the following command to build and host the website locally on port `PORT_NUMBER`:
+```docker run  --privileged --rm -it   -v $(pwd):/src   -p <PORT_NUMBER>:1313   klakegg/hugo:ext-ubuntu   server```
+3. Open your browser to the following address: `http://<SERVER_IP>:<PORT_NUMBER>/`
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+The website will be automatically updated on every chagne you make (useful for major edits to the website).
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
-
-## Demo credits
-
-Please replace the demo images with your own.
-
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8

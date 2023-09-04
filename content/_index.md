@@ -45,7 +45,7 @@ sections:
   
   - block: markdown
     content:
-      title: 
+      title: BGU
       subtitle: 
       text:
     design:
