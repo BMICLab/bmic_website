@@ -23,7 +23,7 @@ sections:
         <br>
         
         The **B**io-**M**edical **I**mage **C**omputing (BMIC) research combines computer vision and bio-medical image analysis (MRI, CT, Cell microscopy, etc.) . The lab is lead by Prof. Tammy Riklin Raviv.
-  
+
   - block: collection
     content:
       title: Latest News
